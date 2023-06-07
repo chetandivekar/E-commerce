@@ -1,5 +1,5 @@
 import React from "react";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import "../styles/Navbar.css";
 
@@ -25,8 +25,9 @@ export default function Navbar() {
           <div className="upper">Returns</div>
           <div className="lower">& Orders</div>
         </div>
-        <div className="info">
-          <ShoppingCartOutlinedIcon />
+        <div className="info infos">
+          <ShoppingBasketIcon className="cart" />
+          <span>0</span>
         </div>
       </div>
     </div>
